@@ -16,6 +16,8 @@ def run_eperiments(f, name, lambd, dim, layers, hidden, steps, runs, seed):
     para_dict = {'name': name, 'hidden': hidden, 'steps': steps, 'runs': runs, 'dim': dim, 'layers': layers,
                  'lambda': lambd}
     dir_path = './experiments/' + name
+    if not os.path.exists('./experiments'):
+        os.mkdir('./experiments')
     if not os.path.exists(dir_path):
         os.mkdir(dir_path)
     with open(dir_path + '/param_dict.pkl', 'wb') as file:
