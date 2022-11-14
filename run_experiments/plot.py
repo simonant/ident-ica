@@ -11,6 +11,8 @@ def plot_exp(name, f):
     if not os.path.exists(data_dir):
         print('Experiment does not exist')
         return
+    if not os.path.exists('./plots'):
+        os.mkdir('./plots')
     if not os.path.exists(plot_dir):
         os.mkdir(plot_dir)
 
