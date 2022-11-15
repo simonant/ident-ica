@@ -63,6 +63,6 @@ if __name__ == "__main__":
     parser.add_argument('--hidden', type=int, default=15)
     parser.add_argument('--steps', type=int, default=10)
     parser.add_argument('--runs', type=int, default=10)
-    parser.add_argument('--seed', type=int, default=1)
+    parser.add_argument('--seed', type=int, default=2022)
     args = parser.parse_args()
     main(args)
