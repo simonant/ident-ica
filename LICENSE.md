@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 sbuchholz
+Copyright (c) 2022 Max Planck Society
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
