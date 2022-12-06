@@ -17,7 +17,7 @@ def get_initialised_flow(f, layers=3, hidden=20, dim=2):
         if check_faithful(flow, f, dim):
             return flow
         else:
-            print('Failed, restart training')
+            print('Training of initial flow did not converge, restart training')
     print('No suitable intitialisation found!')
     quit()
 
